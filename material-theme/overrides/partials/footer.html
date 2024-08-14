@@ -46,25 +46,27 @@
       {% endif %}
     {% endif %}
     <div class="md-footer-meta md-typeset">
-      {#- custom block start -#}
-      <div class="custom-footer-content">
-        <div class="custom-footer-item logo">
-          <img src="{{ config.theme.logo|url }}" alt="Company Logo" />
-        </div>
-        <div class="custom-footer-item address">
-          <p>是方電訊股份有限公司 臺北市114內湖區瑞光路68號2樓</p>
-        </div>
-        <div class="custom-footer-item telephone">
-          <p>070-1018-6688&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02-2657-6688</p>
-        </div>
-      </div>
-      <hr>
-      {#- custom block end -#}
       <div class="md-footer-meta__inner md-grid">
+        {#- custom block start -#}
+        <div class="custom-footer-content">
+          <div style="flex: 0 0 auto;text-align: left;width: auto;">
+            <img style="max-height: 50px;" src="{{ config.theme.logo|url }}" alt="Company Logo" />
+          </div>
+          <div style="flex-grow: 1;text-align: left;">
+            <p>是方電訊股份有限公司 臺北市114內湖區瑞光路68號2樓</p>
+          </div>
+          <div style="color: red;text-align: right;">
+            <p>070-1018-6688&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02-2657-6688</p>
+          </div>
+        </div>
+        <hr style="margin: 0px;">
+        {#- custom block end -#}
+        <div style="display: flex;">
         {% include "partials/copyright.html" %}
         {% if config.extra.social %}
           {% include "partials/social.html" %}
         {% endif %}
+        </div>
       </div>
     </div>
   </footer>

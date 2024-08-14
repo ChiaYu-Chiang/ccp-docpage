@@ -8,11 +8,11 @@ theme:
   palette:
     - scheme: chief
       toggle:
-        icon: material/brightness-7
+        icon: material/cloud
         name: chief theme
-    - scheme: default
+    - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/cloud-outline
         name: default theme
 
   # 預設語言
@@ -51,15 +51,6 @@ nav:
       - 關於我們: "about.md"
 
 extra:
-  # 語言切換選項
-  alternate:
-    - name: 繁體中文
-      link: /zh-TW
-      lang: zh-TW
-    - name: English
-      link: /en/
-      lang: en
-
   # 移除Made with...
   generator: false
 
@@ -73,7 +64,15 @@ extra:
       link: https://page.line.me/chieftelecom
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/chieftelecom
+
 copyright: COPYRIGHT@2020 CHIEF TELECOM INC. ALL RIGHTS RESERVED
 
 extra_css:
   - stylesheets/extra.css
+
+# 啟用圖示和表情符號
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

@@ -2,14 +2,13 @@
   --md-primary-fg-color: #fff;
   --md-primary-bg-color: #000;
   --md-accent-fg-color: #ff4c00;
+  --md-footer-fg-color: #000;
   --md-footer-fg-color--light: #666;
   --md-footer-bg-color--dark: #ddd;
 }
 
-[data-md-color-scheme="youtube"] {
-  --md-primary-fg-color: #ee0f0f;
-  --md-primary-fg-color--light: #ecb7b7;
-  --md-primary-fg-color--dark: #90030c;
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #000;
 }
 
 .md-social__link svg {
@@ -32,6 +31,10 @@
   color: #0a66c2;
 }
 
+.md-footer-meta__inner {
+  display: block;
+}
+
 /* overrides/styles.css */
 .custom-footer-content {
   display: flex;
@@ -39,20 +42,4 @@
   align-items: center;
   justify-content: center;
   gap: 20px; /* 控制項目之間的間距 */
-}
-
-.custom-footer-item {
-  flex: 1 1 100px; /* 每個項目寬度的最小值 */
-  text-align: center; /* 中心對齊 */
-}
-
-.custom-footer-item img {
-  max-height: 50px; /* 控制 logo 的最大高度 */
-  width: auto; /* 保持 logo 的比例 */
-}
-
-@media (max-width: 768px) {
-  .custom-footer-content {
-    flex-direction: column;
-  }
 }
