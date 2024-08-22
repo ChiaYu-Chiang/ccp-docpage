@@ -1,17 +1,65 @@
-# Welcome to MkDocs
+!!! warning "測試階段公告"
+**注意：** 本網站目前處於測試階段。所有內容均為暫時性質，僅供內部測試使用。未來將會進行大幅調整和更新。請勿依賴此處的任何信息作為最終參考。
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# 歡迎使用 Chief Cloud Portal 文檔中心
 
-## Commands
+歡迎來到 Chief Cloud Portal (CCP) 的官方文檔中心。這裡提供了全面的使用指南、技術文檔和支援資源，幫助您充分利用 CCP 的所有功能。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 快速入口
 
-## Project layout
+- :material-account-plus:{ .lg .middle } **帳戶管理**
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+  ***
+
+  學習如何創建和管理您的 CCP 帳戶，設置安全選項，以及管理用戶權限。
+
+  [:octicons-arrow-right-24: 前往帳戶管理](建立帳戶/pdf/)
+
+- :material-cloud-outline:{ .lg .middle } **雲端資源**
+
+  ***
+
+  了解如何部署、配置和管理各種雲端資源，包括虛擬機器、儲存和網絡服務。
+
+  [:octicons-arrow-right-24: 探索雲端資源](使用指南/使用操作/資源管理/)
+
+- :material-frequently-asked-questions:{ .lg .middle } **常見問題**
+
+  ***
+
+  查找常見問題的答案，快速解決您在使用過程中可能遇到的疑難。
+
+  [:octicons-arrow-right-24: 查看常見問題](常見問題/帳戶問題/)
+
+- :material-headphones-settings:{ .lg .middle } **技術支援**
+
+  ***
+
+  需要幫助？了解如何聯繫我們的技術支援團隊或使用自助服務工具。
+
+  [:octicons-arrow-right-24: 獲取支援](聯絡我們/關於我們/)
+
+## 最新更新
+
+- **[2024-03-15]** 新增 AI 輔助分析功能，提升資源使用效率
+- **[2024-02-28]** 安全性更新：增強多因素認證機制
+- **[2024-01-10]** 推出新的用戶界面，優化操作流程
+
+[查看完整更新日誌](更新日誌/最新版本/)
+
+## 開始使用
+
+如果您是新用戶，我們建議您從以下步驟開始：
+
+1. [創建 CCP 帳戶](建立帳戶/pdf/)
+2. [了解基本概念和術語](使用指南/使用操作/其他操作/)
+3. [部署您的第一個虛擬機器](使用指南/使用操作/資源管理/)
+4. [設置監控和警報](使用指南/使用操作/其他操作/)
+
+## 需要幫助？
+
+如果您在使用過程中遇到任何問題或需要進一步的協助，請不要猶豫聯繫我們的[技術支援團隊](聯絡我們/關於我們/)。我們隨時準備為您提供幫助！
+
+---
+
+<small>© 2024 Chief Telecom Inc. 保留所有權利。</small>

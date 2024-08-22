@@ -1,4 +1,5 @@
 site_name: Chief Cloud Portal Documents
+site_url: https://localhost:8000/
 
 theme:
   name: material
@@ -22,10 +23,10 @@ theme:
   favicon: assets/images/favicon.ico
 
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.top
 
 nav:
   - 首頁: "index.md"
@@ -36,16 +37,16 @@ nav:
           - pdf: "login.md"
           - ppt: "https://allencloud.ccis.chiefappc.com/brian/Chief%20Cloud%20Portal%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E-IAM.pptx"
       - 使用操作:
-          - 帳戶操作: ""
-          - 資源管理: ""
-          - 其他操作: ""
+          - 帳戶操作: "not_created.md"
+          - 資源管理: "not_created.md"
+          - 其他操作: "not_created.md"
   - 常見問題:
-      - 帳戶問題: ""
-      - 功能問題: ""
-      - 技術問題: ""
+      - 帳戶問題: "not_created.md"
+      - 功能問題: "not_created.md"
+      - 技術問題: "not_created.md"
   - 更新日誌:
-      - 最新版本: ""
-      - 歷史版本: ""
+      - 最新版本: "not_created.md"
+      - 歷史版本: "not_created.md"
   - 聯絡我們:
       - License: "license.md"
       - 關於我們: "about.md"
@@ -76,3 +77,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

@@ -5,6 +5,7 @@
   --md-footer-fg-color: #000;
   --md-footer-fg-color--light: #666;
   --md-footer-bg-color--dark: #ddd;
+  --md-typeset-a-color: #15306b;
 }
 
 [data-md-color-scheme="slate"] {
