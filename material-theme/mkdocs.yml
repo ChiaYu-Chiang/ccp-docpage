@@ -29,27 +29,25 @@ theme:
     - navigation.top
 
 nav:
-  - 首頁: "index.md"
+  - 首頁: 'index.md'
   - 關於CCP:
-      - CCP Website: "https://portal.chiefappc.com/"
+      - CCP Website: 'https://portal.chiefappc.com/'
   - 使用指南:
-      - 建立帳戶:
-          - pdf: "login.md"
-          - ppt: "https://allencloud.ccis.chiefappc.com/brian/Chief%20Cloud%20Portal%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E-IAM.pptx"
-      - 使用操作:
-          - 帳戶操作: "not_created.md"
-          - 資源管理: "not_created.md"
-          - 其他操作: "not_created.md"
+      - Register: 'register.md'
+      - VM: 'vm.md'
+      - VPC: 'vpc.md'
+      - CCIS: 'ccis.md'
+      - IAM: 'iam.md'
   - 常見問題:
-      - 帳戶問題: "not_created.md"
-      - 功能問題: "not_created.md"
-      - 技術問題: "not_created.md"
+      - 帳戶問題: 'not_created.md'
+      - 功能問題: 'not_created.md'
+      - 技術問題: 'not_created.md'
   - 更新日誌:
-      - 最新版本: "not_created.md"
-      - 歷史版本: "not_created.md"
+      - 最新版本: 'not_created.md'
+      - 歷史版本: 'not_created.md'
   - 聯絡我們:
-      - License: "license.md"
-      - 關於我們: "about.md"
+      - License: 'license.md'
+      - 關於我們: 'about.md'
 
 extra:
   # 移除Made with...
