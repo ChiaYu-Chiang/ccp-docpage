@@ -23,8 +23,6 @@ theme:
   favicon: assets/images/favicon.ico
 
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - toc.integrate
     - navigation.top
 
@@ -41,12 +39,12 @@ nav:
           - markdown: iammd.md
           - pdf: "iam.md"
   - 常見問題:
-      - 帳戶問題: "not_created.md"
-      - 功能問題: "not_created.md"
-      - 技術問題: "not_created.md"
+      - 帳戶問題: ""
+      - 功能問題: ""
+      - 技術問題: ""
   - 更新日誌:
-      - 最新版本: "not_created.md"
-      - 歷史版本: "not_created.md"
+      - 最新版本: ""
+      - 歷史版本: ""
   - 聯絡我們:
       - License: "license.md"
       - 關於我們: "about.md"
