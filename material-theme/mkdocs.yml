@@ -29,25 +29,27 @@ theme:
     - navigation.top
 
 nav:
-  - 首頁: 'index.md'
+  - 首頁: "index.md"
   - 關於CCP:
-      - CCP Website: 'https://portal.chiefappc.com/'
+      - CCP Website: "https://portal.chiefappc.com/"
   - 使用指南:
-      - Register: 'register.md'
-      - VM: 'vm.md'
-      - VPC: 'vpc.md'
-      - CCIS: 'ccis.md'
-      - IAM: 'iam.md'
+      - Register: "register.md"
+      - VM: "vm.md"
+      - VPC: "vpc.md"
+      - CCIS: "ccis.md"
+      - IAM:
+          - markdown: iammd.md
+          - pdf: "iam.md"
   - 常見問題:
-      - 帳戶問題: 'not_created.md'
-      - 功能問題: 'not_created.md'
-      - 技術問題: 'not_created.md'
+      - 帳戶問題: "not_created.md"
+      - 功能問題: "not_created.md"
+      - 技術問題: "not_created.md"
   - 更新日誌:
-      - 最新版本: 'not_created.md'
-      - 歷史版本: 'not_created.md'
+      - 最新版本: "not_created.md"
+      - 歷史版本: "not_created.md"
   - 聯絡我們:
-      - License: 'license.md'
-      - 關於我們: 'about.md'
+      - License: "license.md"
+      - 關於我們: "about.md"
 
 extra:
   # 移除Made with...
